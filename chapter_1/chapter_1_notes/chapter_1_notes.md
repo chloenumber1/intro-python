@@ -2,7 +2,7 @@
 
 **1.1 Setting Up Your Programming Environment**
 - *1.1.1 Python Versions*: Ensure you install the most up-to-date or at least a recent version.
-- *1.1.2 Running Snippets of Python Code*: You can run snippets of code via the terminal once you have python installed. 
+- *1.1.2 Running Snippets of Python Code*: You can run snippets of code via the terminal once you have python installed.\ 
     1.1.2.1 You can run code snippets such as:\
     python\
     print("Hello python interpreter!")\
