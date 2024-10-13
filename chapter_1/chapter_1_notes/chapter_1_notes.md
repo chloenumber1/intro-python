@@ -6,7 +6,7 @@
     - 1.1.2.1 You can run code snippets such as:\
     python\
     print("Hello python interpreter!")\
-    Hello python interpreter!\
+    Hello python interpreter!
     - 1.1.2.2 You can also run code snippets contained in actual python\
     files held on your machine via the terminal (more on that later)
 - *1.1.3 Sublime text editor*: I won't be using that, so sections 
