@@ -30,7 +30,8 @@
         - 2.3.1.3.1 &lt;variable&gt;: This variable can hold any data type that has methods defined for it such as a string, list, etc.
         - 2.3.1.3.2 Dot operator (.): The dot operator is used to access the methods and attributes of the object. The dot signifies that the method belongs to the object referenced by <variable>.
         - 2.3.1.3.3 <method()>:This is the name of the method you want to call. It can take parameters in the parentheses if it needs to.
-- *2.3.2 
+- *2.3.2 Using Variables in Strings*:
+    - 2.3.2.1 Formatted Strings AKA F-Strings:
 **2.4 Numbers**
 
 **2.5 Comments**
