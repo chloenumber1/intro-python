@@ -17,7 +17,7 @@
     - 2.2.2.2 Ensure your variables are spelled correctly throughout your code to prevent errors.
 - *2.2.3 Variables are Labels*:
     - 2.2.3.1 Variables are named spaces, meaning that they reference a stored value. Name your variables in a meaningful, descriptive way so your code is cleaner and so you can parse through errors more easily.
-    - 2.2.3.2 Try-It-Yourself 2-1 and 2-2 are in this section. Refer to the ch2_try_it_yourself folder to see the files.
+    - 2.2.3.2 Try-It-Yourself [2-1](https://github.com/chloenumber1/intro-python/blob/main/chapter_2/ch_2_try_it_yourself/tiy_2_1_simple_message.py) and [2-2](https://github.com/chloenumber1/intro-python/blob/main/chapter_2/ch_2_try_it_yourself/tiy_2_2_simple_messages.py) are in this section. Refer to the ch2_try_it_yourself folder to see the files.Those 2 exercises are about how to assign a string variable and what string reassignment looks like. 
 
 **2.3 Strings**
 - A String is a series of characters enclosed in either double or single quotes.
