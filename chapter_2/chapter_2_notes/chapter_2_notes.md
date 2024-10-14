@@ -22,7 +22,7 @@
 **2.3 Strings**
 - A String is a series of characters enclosed in either double or single quotes.
 - *2.3.1 Changing Case in a String with Methods*:
-    - [name.py](https://raw.githubusercontent.com/chloenumber1/intro-python/refs/heads/main/chapter_2/chapter_2_examples/name.py) contains the code examples for this section
+    - [name.py](https://github.com/chloenumber1/intro-python/blob/main/chapter_2/chapter_2_examples/name.py) contains the code examples for this section
     - Methods used in this section were .title(), .upper(), and .lower().
     - 2.3.1.1 Further information about variables:
     - 2.3.1.2 What is a method:
