@@ -1,7 +1,7 @@
 **Ch.2 Variables and Simple Data Types**
 
 **2.1 What Really Happens When You Run hello_world.py**
-![Image of Python compilation and interpretation process](chapter_2/chapter_2_notes/ch_2_notes_imgs/python-interpretation-compilation - Copy.jpg)
+chapter_2/chapter_2_notes/ch_2_notes_imgs/python-interpretation-compilation - Copy.jpg
 
 **2.2 Variables**
 
