@@ -18,7 +18,10 @@
 - *2.2.3 Variables are Labels*:
     - 2.2.3.1 Variables are named spaces, meaning that they reference a stored value. Name your variables in a meaningful, descriptive way so your code is cleaner and so you can parse through errors more easily.
     - 2.2.3.2 Try-It-Yourself 2-1 and 2-2 are in this section. Refer to the ch2_try_it_yourself folder to see the files.
+
 **2.3 Strings**
+- A String is a series of characters enclosed in either double or single quotes.
+- *2.3.1 Changing Case in a String with Methods*:
 
 **2.4 Numbers**
 
