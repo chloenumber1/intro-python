@@ -24,9 +24,13 @@
 - *2.3.1 Changing Case in a String with Methods*:
     - [name.py](https://github.com/chloenumber1/intro-python/blob/main/chapter_2/chapter_2_examples/name.py) contains the code examples for this section
     - Methods used in this section were .title(), .upper(), and .lower().
-    - 2.3.1.1 Further information about variables:
-    - 2.3.1.2 What is a method:
-    - 2.3.1.3 Explaining the syntax <variable>.<method()>:
+    - 2.3.1.1 Further information about variables: another way to manipulate data held in a variable without reassigning it is to use a method.
+    - 2.3.1.2 What is a method: in the context of the example name.py, where methods like .title() were used, built-in methods are predefined functions that can perform specific operations on objects (strings are objects).
+    - 2.3.1.3 Explaining the syntax <variable>.<method()> by breaking it into components:
+        - 2.3.1.3.1 <variable>: This variable can hold any data type that has methods defined for it such as a string, list, etc.
+        - 2.3.1.3.2 Dot operator (.): The dot operator is used to access the methods and attributes of the object. The dot signifies that the method belongs to the object referenced by <variable>.
+        - 2.3.1.3.3 <method()>:This is the name of the method you want to call. It can take parameters in the parentheses if it needs to.
+- *2.3.2 
 **2.4 Numbers**
 
 **2.5 Comments**
