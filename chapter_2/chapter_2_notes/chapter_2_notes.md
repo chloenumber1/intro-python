@@ -12,7 +12,12 @@
     - 2.2.1.3 Do not use Python keywords and function names as variable names.
     - 2.2.1.4 Keep variable names short and descriptive.
     - 2.2.1.5 Try to careful when using 1, 0, O, and l since they can easily be confused.
-
+- *2.2.2 Avoiding Name Errors When Using Variables*:
+    - 2.2.2.1 "A traceback is a record of where the interpreter ran into trouble when trying to execute your code" (p.18).
+    - 2.2.2.2 Ensure your variables are spelled correctly throughout your code to prevent errors.
+- *2.2.3 Variables are Labels*:
+    - 2.2.3.1 Variables are named spaces, meaning that they reference a stored value. Name your variables in a meaningful, descriptive way so your code is cleaner and so you can parse through errors more easily.
+    - 2.2.3.2 Try-It-Yourself 2-1 and 2-2 are in this section. Refer to the ch2_try_it_yourself folder to see the files.
 **2.3 Strings**
 
 **2.4 Numbers**
