@@ -32,7 +32,15 @@
         - 2.3.1.3.3 <method()>:This is the name of the method you want to call. It can take parameters in the parentheses if it needs to.
 - *2.3.2 Using Variables in Strings*:
     - 2.3.2.1 Formatted Strings AKA F-Strings: The purpose of F-Strings is to be able to make dynamic strings that include variable content such as variables, function calls, method calls, etc. 
-    - 2.3.2.2 F-String Syntax: f"{variable1}{variable2}"
+    - All of the examples below are also in the [full_name.py](https://github.com/chloenumber1/intro-python/blob/main/chapter_2/chapter_2_examples/full_name.py) file. I copied the examples in the full_name.py file from the book, but the ones below are my own.
+    - 2.3.2.2 F-String Syntax: 
+      f"{variable1}{variable2}"
+    - 2.3.2.3 F-String Syntax Print Statement With Variable: 
+      friend = "Susie"
+      print(f"Hello, {friend}")
+    - 2.3.2.4 F-String Syntax Print Statement With Variable and Method:
+      friend = "susie"
+      print(f"Hello, {friend.title()}")
 **2.4 Numbers**
 
 **2.5 Comments**
