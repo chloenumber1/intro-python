@@ -49,7 +49,9 @@
 
 ## Chapter 2 Try-It-Yourself
 [2-1 Simple Message](https://github.com/chloenumber1/intro-python/blob/main/chapter_2/ch_2_try_it_yourself/tiy_2_1_simple_message.py)
+
 [2-2 Simple Messages](https://github.com/chloenumber1/intro-python/blob/main/chapter_2/ch_2_try_it_yourself/tiy_2_2_simple_messages.py)
+
 [2-3 Personal Message](https://github.com/chloenumber1/intro-python/blob/main/chapter_2/ch_2_try_it_yourself/tiy_2_3_personal_message.py)
 [2-4 Name Cases](https://github.com/chloenumber1/intro-python/blob/main/chapter_2/ch_2_try_it_yourself/tiy_2_4_name_cases.py)
 [2-5 Famous Quote](https://github.com/chloenumber1/intro-python/blob/main/chapter_2/ch_2_try_it_yourself/tiy_2_5_famous_quote.py)
