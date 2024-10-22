@@ -7,5 +7,5 @@ person_name = "Susie"
 print(f"Hello {person_name}, I made this F-String for you.")
 
 # Solution 2
-message = f"Hello {person_name}, this time, I assigned the F_String to a variable named msg."
+message = f"Hello {person_name}, this time, I assigned the F_String to a variable named message."
 print(message)
