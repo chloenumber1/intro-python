@@ -31,3 +31,10 @@ print(f"3**3={exponentiation}\n")
 print("Order of Operations")
 oop = 2-7+3*8+1
 print(f"2-7+3*8+1={oop}\n")
+
+# 2.4.1.4 Spacing
+print("Spacing")
+space1 = 2  -7+ 3*8+  1
+print(f" 2  -7+ 3*8+  1={space1}")
+space2 = 2-7+3*8+1
+print(f"2-7+3*8+1={space2}\n")
