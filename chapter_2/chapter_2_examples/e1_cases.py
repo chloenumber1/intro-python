@@ -1,8 +1,13 @@
-# name.py example from p.20 about title case method.
+# 2.3.1
+# Output: |
+# Ada Lovelace
 name = "ada lovelace"
 print(name.title())
 
-# Uppercase and lowercase example from p.20
+# 2.3.1 cont'd
+# Output:
+# ADA LOVELACE
+# ada lovelace
 name = "Ada Lovelace"
 print(name.upper())
 print(name.lower())
