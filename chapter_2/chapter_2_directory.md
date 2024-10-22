@@ -6,7 +6,7 @@
 ## Chapter 2 Examples
 ### [Hit this link to go to the chapter 2 examples file](https://github.com/chloenumber1/intro-python/tree/main/chapter_2/chapter_2_examples)
 ### Variables
-N/A
+- N/A, there's 2 TIYs for this.
 ### Strings
 - Changing Case in a String with Methods [e1_cases.py](https://github.com/chloenumber1/intro-python/blob/main/chapter_2/chapter_2_examples/e1_cases.py): 
     - title()
@@ -26,8 +26,14 @@ N/A
     - Exponentiation with integers
     - Order of Operations with integers
     - Spacing does not affect output with numerical expressions
-
-
+- Floats [e6_floats.py](https://github.com/chloenumber1/intro-python/blob/main/chapter_2/chapter_2_examples/e6_floats.py):
+- Integers and Floats [e7_ints_vs_floats.py](https://github.com/chloenumber1/intro-python/blob/main/chapter_2/chapter_2_examples/e7_ints_vs_floats.py)
+- Underscores in Numbers [e8_num_underscores.py](https://github.com/chloenumber1/intro-python/blob/main/chapter_2/chapter_2_examples/e8_num_underscores.py)
+- Multiple Assignment [e9_mult_assignment.py](https://github.com/chloenumber1/intro-python/blob/main/chapter_2/chapter_2_examples/e9_mult_assignment.py)
+- Constants [e10_constant.py](https://github.com/chloenumber1/intro-python/blob/main/chapter_2/chapter_2_examples/e10_constant.py)
 
 ### Comments
+- N/A, comments are written throughout the code and there's a TIY for this.
+
 ### Zen of Python
+- N/A, there's a TIY for this.
