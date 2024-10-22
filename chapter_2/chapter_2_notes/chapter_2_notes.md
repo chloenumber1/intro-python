@@ -82,7 +82,7 @@
     - You can do the same operations with floats as you can do with integers.
 - *2.4.3 Integers and Floats*:
     - Refer to [e7_ints_vs_floats.py](https://github.com/chloenumber1/intro-python/blob/main/chapter_2/chapter_2_examples/e7_ints_vs_floats.py) for code examples.
-    - 2.4.3.1 Division: When you divide two numbers, whether they're ints or floats, the result is a float.
+    - 2.4.3.1 Division: When you divide two numbers, whether they're ints or floats, the result is a float. !!!CAVEAT: If you divide two ints with the "//" operator, it'll evaluate to an int.
     - 2.4.3.2 Mixing Integers and Floats: If you mix an integer and a float, you will always get a float, even if the result is a whole number. 
 - *2.4.4 Underscores in Numbers*:
     - Refer to [e8_num_underscores.py](https://github.com/chloenumber1/intro-python/blob/main/chapter_2/chapter_2_examples/e8_num_underscores.py) for the underscores in numbers example

@@ -5,6 +5,10 @@
 print("Integer-only division outputs a float:")
 int_only_div = 4/2
 print(f"4/2={int_only_div}\n")
+# EXCEPTION: If you want integer division to output an integer, you use //
+print("Integer-only division outputs an int if you use //:")
+int_div = 4//2
+print(f"4//2={int_div}\n")
 
 # 2.4.3.2 Integer and Float Operations
 # Math done with both an integer and float outputs a float
@@ -23,3 +27,4 @@ print(f"4+2.0={int_float_add}\n")
 int_float_sub = 4-2.0
 print("Integer and float subtraction outputs a float:")
 print(f"4-2.0={int_float_sub}\n")
+
