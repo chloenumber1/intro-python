@@ -92,7 +92,7 @@
     - See [e9_mult_assignment.py](https://github.com/chloenumber1/intro-python/blob/main/chapter_2/chapter_2_examples/e9_mult_assignment.py) for examples
     - 2.4.5.1 You can assign multiple variables at once: x,y,z=0,1,2
 - *2.4.6 Constants*:
-    - Refer to [e10_constant.py]() to see a constant example where I calculate the area of a circle.
+    - Refer to [e10_constant.py](https://github.com/chloenumber1/intro-python/blob/main/chapter_2/chapter_2_examples/e10_constant.py) to see a constant example where I calculate the area of a circle.
     - 2.4.6.1 A constant is a variable whose value can't be changed. Its syntax is all capital letters (e.g. A_CONSTANT_VAR = 5).
 
 **2.5 Comments**
