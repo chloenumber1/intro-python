@@ -70,13 +70,19 @@
     - 2.3.5.3 Double Quotes: Double quotes won't create the error above. Something like "This string 'in single quotes' here" won't generate an error because there's no ambiguity as to where the quote starts and stops. 
 
 **2.4 Numbers**
-- *2.3.1 Integers*: 
+- *2.4.1 Integers*: 
     - An integer is 0, positive whole numbers, and negative whole numbers.
     - 2.3.1.1 What you can do with integers in Python: you can add (+), subtract(-), multiply(*), and divide(/).
     - 2.3.1.2 How you can denote exponentiation in Python: Two asterisks 
     (e.g. 3**3 = 27)
     - 2.3.1.3 Order of Operations: Python supports order of operations (e.g. 5 + 5*2 = 15)
     - 2.3.1.4 Spacing: Spacing has no effect on the evaluation of integers.
+- *2.4.2 Floats*:
+    - A float is any number with a decimal point.
+    - You can do the same operations with floats as you can do with integers.
+- *2.4.3 Integers and Floats*:
+    - 2.4.3.1 Division: When you divide two numbers, whether they're ints or floats, the result is a float.
+    - 2.4.3.2 Mixing Integers and Floats: If you mix an integer and a float, you will always get a float, even if the result is a whole number. 
 
 
 **2.5 Comments**
