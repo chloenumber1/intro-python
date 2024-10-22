@@ -96,5 +96,12 @@
     - 2.4.6.1 A constant is a variable whose value can't be changed. Its syntax is all capital letters (e.g. A_CONSTANT_VAR = 5).
 
 **2.5 Comments**
+- See [tiy_2_10_11_comments_zen.py]() for comments
+- *2.5.1 Comments Syntax*: # comment
+- *2.5.2 What Comments You Should Write*:
+    - 2.5.2.1 Comments should explain your code
+    - 2.5.2.2 Comments should clarify complex code segments
+    - 2.5.2.3 Comments should be functional, meaning that they explain a code base in a way that is clear to both new collaborators and the original code writer.
 
 **2.6 The Zen of Python**
+- See [tiy_2_10_11_comments_zen.py]() for the 19 principles
