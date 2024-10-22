@@ -48,6 +48,8 @@
 - N/A, there's a TIY for this.
 
 ## Chapter 2 Try-It-Yourself
+### [Hit this link to go to the chapter 2 Try-It-Yourself folder](https://github.com/chloenumber1/intro-python/tree/main/chapter_2/ch_2_try_it_yourself)
+
 [2-1 Simple Message](https://github.com/chloenumber1/intro-python/blob/main/chapter_2/ch_2_try_it_yourself/tiy_2_1_simple_message.py)
 
 [2-2 Simple Messages](https://github.com/chloenumber1/intro-python/blob/main/chapter_2/ch_2_try_it_yourself/tiy_2_2_simple_messages.py)
