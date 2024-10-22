@@ -66,8 +66,8 @@
       print(favorite_language2.lstrip())
 - *2.3.5 Avoiding Syntax Errors with Strings*:
     - 2.3.5.1 Single Quotes vs. Double Quotes: See [e4_single_vs_double.py](https://github.com/chloenumber1/intro-python/blob/main/chapter_2/chapter_2_examples/e4_single_vs_double.py) for code examples.
-    - 2.3.5.2 Single Quotes: A common syntax error that can occur is if you write a string such as 'This string 'in single quotes' here.' What will happen is that Python can't identify where the string starts and ends. 
-    - 2.3.5.3 Double Quotes: Double quotes won't create the error above. Something like "This string 'in single quotes' here" won't generate an error because there's no ambiguity as to where the quote starts and stops. 
+    - 2.3.5.2 Using ALL Single or Double Quotes: A common syntax error that can occur is if you write a string such as 'This string 'in single quotes' here.' What will happen is that Python can't identify where the string starts and ends. 
+    - 2.3.5.3 A Mix of Double and Single Quotes: A mix of double quotes won't create the error above. Something like "This string 'in single quotes' here" won't generate an error because there's no ambiguity as to where the quote starts and stops. Also, 'This string in "double quotes" doesn't generate an error either'.
 
 **2.4 Numbers**
 - *2.4.1 Integers*: 
