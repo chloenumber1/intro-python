@@ -88,6 +88,9 @@
     - Refer to [e8_num_underscores.py](https://github.com/chloenumber1/intro-python/blob/main/chapter_2/chapter_2_examples/e8_num_underscores.py) for the underscores in numbers example
     - 2.4.4.1 What Underscores in Numbers are For: You use underscores in numbers for code readibility (ex. 1_000_000). 
     - 2.4.4.2 What Underscores in Numbers Output: Python will only print the output.
+- *2.4.5 Multiple Assignment*:
+    - See [e9_mult_assignment.py]() for examples
+    - 2.4.5.1 You can assign multiple variables at once: x,y,z=0,1,2
 
 **2.5 Comments**
 
