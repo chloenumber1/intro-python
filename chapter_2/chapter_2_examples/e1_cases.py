@@ -1,5 +1,5 @@
 # 2.3.1
-# Output: |
+# Output: 
 # Ada Lovelace
 name = "ada lovelace"
 print(name.title())
