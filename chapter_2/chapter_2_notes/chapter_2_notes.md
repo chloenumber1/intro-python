@@ -22,7 +22,7 @@
 **2.3 Strings**
 - A String is a series of characters enclosed in either double or single quotes.
 - *2.3.1 Changing Case in a String with Methods*:
-    - [name.py](https://github.com/chloenumber1/intro-python/blob/main/chapter_2/chapter_2_examples/name.py) contains the code examples for this section
+    - [e1_cases.py](https://github.com/chloenumber1/intro-python/blob/main/chapter_2/chapter_2_examples/e1_cases.py) contains the code examples for this section
     - Methods used in this section were .title(), .upper(), and .lower().
     - 2.3.1.1 Further information about variables: another way to manipulate data held in a variable without reassigning it is to use a method.
     - 2.3.1.2 What is a method: in the context of the example name.py, where methods like .title() were used, built-in methods are predefined functions that can perform specific operations on objects (strings are objects).
@@ -71,19 +71,23 @@
 
 **2.4 Numbers**
 - *2.4.1 Integers*: 
-    - An integer is 0, positive whole numbers, and negative whole numbers.
+    - An integer is 0, positive whole numbers, and negative whole numbers. Refer to [e5_integers.py]() to see integer code examples.
     - 2.3.1.1 What you can do with integers in Python: you can add (+), subtract(-), multiply(*), and divide(/).
     - 2.3.1.2 How you can denote exponentiation in Python: Two asterisks 
     (e.g. 3**3 = 27)
     - 2.3.1.3 Order of Operations: Python supports order of operations (e.g. 5 + 5*2 = 15)
     - 2.3.1.4 Spacing: Spacing has no effect on the evaluation of integers.
 - *2.4.2 Floats*:
-    - A float is any number with a decimal point.
+    - A float is any number with a decimal point. Refer to [e6_floats.py]() to see float code examples.
     - You can do the same operations with floats as you can do with integers.
 - *2.4.3 Integers and Floats*:
+    - Refer to [e7_ints_vs_floats.py]() for code examples.
     - 2.4.3.1 Division: When you divide two numbers, whether they're ints or floats, the result is a float.
     - 2.4.3.2 Mixing Integers and Floats: If you mix an integer and a float, you will always get a float, even if the result is a whole number. 
-
+- *2.4.4 Underscores in Numbers*:
+    - Refer to [e8_num_underscores.py]() for the underscores in numbers example
+    - 2.4.4.1 What Underscores in Numbers are For: You use underscores in numbers for code readibility (ex. 1_000_000). 
+    - 2.4.4.2 What Underscores in Numbers Output: Python will only print the output.
 
 **2.5 Comments**
 
