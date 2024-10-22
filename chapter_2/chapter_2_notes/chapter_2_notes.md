@@ -50,7 +50,7 @@
     - 2.3.3.2 Newline escape sequence: adding \n will add a newline
       ex. print("Languages:\nPython\nC\nJavaScript")
 - *2.3.4 Stripping Whitespace*:
-    - See [e3_escape_sequences_whitespace.py](https://github.com/chloenumber1/intro-python/blob/main/chapter_2/chapter_2_examples/e3_escape_sequences_whitespace.py) for whitespace stripping examples
+  - See [e3_escape_sequences_whitespace.py](https://github.com/chloenumber1/intro-python/blob/main/chapter_2/chapter_2_examples/e3_escape_sequences_whitespace.py) for whitespace stripping examples
     - Previously, we added whitespace. What if we want to remove it?
     - 2.3.4.1 The .strip() method can be used to strip whitespace FROM BOTH SIDES.
       ex.
@@ -68,7 +68,16 @@
     - 2.3.5.1 Single Quotes vs. Double Quotes: See [e4_single_vs_double.py](https://github.com/chloenumber1/intro-python/blob/main/chapter_2/chapter_2_examples/e4_single_vs_double.py) for code examples.
     - 2.3.5.2 Single Quotes: A common syntax error that can occur is if you write a string such as 'This string 'in single quotes' here.' What will happen is that Python can't identify where the string starts and ends. 
     - 2.3.5.3 Double Quotes: Double quotes won't create the error above. Something like "This string 'in single quotes' here" won't generate an error because there's no ambiguity as to where the quote starts and stops. 
+
 **2.4 Numbers**
+- *2.3.1 Integers*: 
+    - An integer is 0, positive whole numbers, and negative whole numbers.
+    - 2.3.1.1 What you can do with integers in Python: you can add (+), subtract(-), multiply(*), and divide(/).
+    - 2.3.1.2 How you can denote exponentiation in Python: Two asterisks 
+    (e.g. 3**3 = 27)
+    - 2.3.1.3 Order of Operations: Python supports order of operations (e.g. 5 + 5*2 = 15)
+    - 2.3.1.4 Spacing: Spacing has no effect on the evaluation of integers.
+
 
 **2.5 Comments**
 
