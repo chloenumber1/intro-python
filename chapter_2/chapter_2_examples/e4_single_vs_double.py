@@ -4,13 +4,21 @@
 # starts and ends. 
 
 # 2.3.5.2
-# This example generates an error because what will happen is 
+# These examples generate an error because what will happen is 
 # that Python can't identify where the string starts and ends.
 
+# Error code with all single quotes:
 print('This string 'has a single quote' and creates an error')
 
+# Error code with all double quotes:
+print("This string "has a double quote" and creates an error")
+
 # 2.3.5.3
-# This example won't generate an error because there's no 
+# These examples won't generate an error because there's no 
 # ambiguity as to where the quote starts and stops. 
 
-print("This string has a 'single quote' in it but it doesn't generate an error.")
+# Example of double quotes on the outside to print single quotes in the string:
+print("This string has a 'single quote' in it but it does not generate an error.")
+
+# Example of single quotes on the outside to print double quotes in the string:
+print('This string has a "double quote" in it but it does not generate an error.')
