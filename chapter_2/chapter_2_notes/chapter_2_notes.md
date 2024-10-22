@@ -32,7 +32,7 @@
         - 2.3.1.3.3 <method()>:This is the name of the method you want to call. It can take parameters in the parentheses if it needs to.
 - *2.3.2 Using Variables in Strings*:
     - 2.3.2.1 Formatted Strings AKA F-Strings: The purpose of F-Strings is to be able to make dynamic strings that include variable content such as variables, function calls, method calls, etc. 
-    - All of the examples below are also in the [full_name.py](https://github.com/chloenumber1/intro-python/blob/main/chapter_2/chapter_2_examples/full_name.py) file. I copied the examples in the full_name.py file from the book, but the ones below are my own.
+    - All of the examples below are also in the [e2_f_strings.py](https://github.com/chloenumber1/intro-python/blob/main/chapter_2/chapter_2_examples/e2_f_strings.py) file. I copied the examples in the full_name.py file from the book, but the ones below are my own.
     - 2.3.2.2 F-String Syntax: 
       f"{variable1}{variable2}"
     - 2.3.2.3 F-String Syntax Print Statement With Variable: 
@@ -42,6 +42,7 @@
       friend = "susie"
       print(f"Hello, {friend.title()}")
 - *2.3.3 Adding Whitespace to Strings with Tabs or Newlines*:
+    - See [e3_escape_sequences_whitespace.py](https://github.com/chloenumber1/intro-python/blob/main/chapter_2/chapter_2_examples/e3_escape_sequences_whitespace.py) for the tab and newline examples.
     - Escape sequences are denoted by a backslash, AKA the escape character, and another character (e.g. \n, \t, \", etc.). They allow you to put special characters into strings.
     - 2.3.3.1 Tab escape sequence: adding \t will add a tab
       ex. 
@@ -49,6 +50,7 @@
     - 2.3.3.2 Newline escape sequence: adding \n will add a newline
       ex. print("Languages:\nPython\nC\nJavaScript")
 - *2.3.4 Stripping Whitespace*:
+    - See [e3_escape_sequences_whitespace.py](https://github.com/chloenumber1/intro-python/blob/main/chapter_2/chapter_2_examples/e3_escape_sequences_whitespace.py) for whitespace stripping examples
     - Previously, we added whitespace. What if we want to remove it?
     - 2.3.4.1 The .strip() method can be used to strip whitespace FROM BOTH SIDES.
       ex.
@@ -63,7 +65,7 @@
       favorite_language3 = "     Python"
       print(favorite_language2.lstrip())
 - *2.3.5 Avoiding Syntax Errors with Strings*:
-    - 2.3.5.1 Single Quotes vs. Double Quotes: See [e4_single_vs_double.py] for code examples.
+    - 2.3.5.1 Single Quotes vs. Double Quotes: See [e4_single_vs_double.py](https://github.com/chloenumber1/intro-python/blob/main/chapter_2/chapter_2_examples/e4_single_vs_double.py) for code examples.
     - 2.3.5.2 Single Quotes: A common syntax error that can occur is if you write a string such as 'This string 'in single quotes' here.' What will happen is that Python can't identify where the string starts and ends. 
     - 2.3.5.3 Double Quotes: Double quotes won't create the error above. Something like "This string 'in single quotes' here" won't generate an error because there's no ambiguity as to where the quote starts and stops. 
 **2.4 Numbers**

@@ -1,2 +1,2 @@
 A common syntax error that can occur is if you write a string such as 'This string 'in single quotes' here.' What will happen is that Python can't identify where the string starts and ends. 
-    - 2.3.5.3 Double Quotes: Double quotes won't create the error above. Something like "This string 'in single quotes' here" won't generate an error because there's no ambiguity as to where the quote starts and stops. 
+2.3.5.3 Double Quotes: Double quotes won't create the error above. Something like "This string 'in single quotes' here" won't generate an error because there's no ambiguity as to where the quote starts and stops. 
