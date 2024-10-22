@@ -71,21 +71,21 @@
 
 **2.4 Numbers**
 - *2.4.1 Integers*: 
-    - An integer is 0, positive whole numbers, and negative whole numbers. Refer to [e5_integers.py]() to see integer code examples.
+    - An integer is 0, positive whole numbers, and negative whole numbers. Refer to [e5_integers.py](https://github.com/chloenumber1/intro-python/blob/main/chapter_2/chapter_2_examples/e5_integers.py) to see integer code examples.
     - 2.3.1.1 What you can do with integers in Python: you can add (+), subtract(-), multiply(*), and divide(/).
     - 2.3.1.2 How you can denote exponentiation in Python: Two asterisks 
     (e.g. 3**3 = 27)
     - 2.3.1.3 Order of Operations: Python supports order of operations (e.g. 5 + 5*2 = 15)
     - 2.3.1.4 Spacing: Spacing has no effect on the evaluation of integers.
 - *2.4.2 Floats*:
-    - A float is any number with a decimal point. Refer to [e6_floats.py]() to see float code examples.
+    - A float is any number with a decimal point. Refer to [e6_floats.py](https://github.com/chloenumber1/intro-python/blob/main/chapter_2/chapter_2_examples/e6_floats.py) to see float code examples.
     - You can do the same operations with floats as you can do with integers.
 - *2.4.3 Integers and Floats*:
-    - Refer to [e7_ints_vs_floats.py]() for code examples.
+    - Refer to [e7_ints_vs_floats.py](https://github.com/chloenumber1/intro-python/blob/main/chapter_2/chapter_2_examples/e7_ints_vs_floats.py) for code examples.
     - 2.4.3.1 Division: When you divide two numbers, whether they're ints or floats, the result is a float.
     - 2.4.3.2 Mixing Integers and Floats: If you mix an integer and a float, you will always get a float, even if the result is a whole number. 
 - *2.4.4 Underscores in Numbers*:
-    - Refer to [e8_num_underscores.py]() for the underscores in numbers example
+    - Refer to [e8_num_underscores.py](https://github.com/chloenumber1/intro-python/blob/main/chapter_2/chapter_2_examples/e8_num_underscores.py) for the underscores in numbers example
     - 2.4.4.1 What Underscores in Numbers are For: You use underscores in numbers for code readibility (ex. 1_000_000). 
     - 2.4.4.2 What Underscores in Numbers Output: Python will only print the output.
 
