@@ -16,4 +16,16 @@
 - *3.1.4 Using Individual Values From a List*:
     - 3.1.4.1 List Item Application: You can use list elements like variables. See the bicycles.py file for the corresponding example.
 **3.2 Changing, Adding, and Removing Elements**
+- *3.2.1 Modifying Elements in a List*:
+    - 3.2.1.1 
+- *3.2.2 Adding Elements to a List*:
+    - 3.2.2.1 Appending Elements to the End of a List
+    - 3.2.2.2 Inserting Elements Into a List
+- *3.2.3 Removing Elements from a List*:
+    - 3.2.3.1 Removing an Item Using the del Statement
+    - 3.2.3.2 Removing an Item Using the pop() Method
+    - 3.2.3.3 Popping Items from any Position in a List
+    - 3.2.3.4 Removing an Item by Value
+- *3.2.4 Organizing a List:*
+- *3.2.5 Modifying Elements in a List*:
 **3.3 Avoiding Index Errors When Working with Lists**
