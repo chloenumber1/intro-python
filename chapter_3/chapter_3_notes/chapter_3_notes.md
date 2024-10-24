@@ -17,15 +17,19 @@
     - 3.1.4.1 List Item Application: You can use list elements like variables. See the bicycles.py file for the corresponding example.
 **3.2 Changing, Adding, and Removing Elements**
 - *3.2.1 Modifying Elements in a List*:
-- See e2_motorcycles.py for example code.
+- See e2_motorcycles.py for example code. Methods used in this section are" .append(), .insert(), .del(), 
     - 3.2.1.1 Changing an Element in a List: You can change an element in a similar way that you access it. 
         3.1.1.1 Step 1: Know what position of the list you want to change.
         3.1.1.2 Step 2: Reassign the element at that position in the list (ex. list_ex[0] = 5)
 - *3.2.2 Adding Elements to a List*:
     - 3.2.2.1 Appending Elements to the End of a List
-    - 3.2.2.2 Inserting Elements Into a List
+        - 3.2.2.1.1 You use the .append() method when you want to add an element to the END of a list. Ex. list_ex.append("hi").
+        - 3.2.2.1.2 You can also use the .append() method MULTIPLE times to populate a list.
+    - 3.2.2.2 Inserting Elements Into a List: You use the .insert() method to insert an element in a SPECIFIC position in a list. The syntax is list_ex.insert(<position>,"what you want")
 - *3.2.3 Removing Elements from a List*:
-    - 3.2.3.1 Removing an Item Using the del Statement
+    - 3.2.3.1 Removing an Item Using the del Statement: You ise the del statement to remove an element in a SPECIFIC position in a list. 
+        - 3.2.1.1.1 The del statement isn't a method, it's a statement, so no dot notation.
+        - 3.2.3.1.2 The syntax is del list_ex.(<position>)
     - 3.2.3.2 Removing an Item Using the pop() Method
     - 3.2.3.3 Popping Items from any Position in a List
     - 3.2.3.4 Removing an Item by Value
