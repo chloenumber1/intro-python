@@ -17,7 +17,10 @@
     - 3.1.4.1 List Item Application: You can use list elements like variables. See the bicycles.py file for the corresponding example.
 **3.2 Changing, Adding, and Removing Elements**
 - *3.2.1 Modifying Elements in a List*:
-    - 3.2.1.1 
+- See e2_motorcycles.py for example code.
+    - 3.2.1.1 Changing an Element in a List: You can change an element in a similar way that you access it. 
+        3.1.1.1 Step 1: Know what position of the list you want to change.
+        3.1.1.2 Step 2: Reassign the element at that position in the list (ex. list_ex[0] = 5)
 - *3.2.2 Adding Elements to a List*:
     - 3.2.2.1 Appending Elements to the End of a List
     - 3.2.2.2 Inserting Elements Into a List
