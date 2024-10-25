@@ -29,7 +29,7 @@
 - *3.2.3 Removing Elements from a List*:
     - 3.2.3.1 Removing an Item Using the del Statement: You ise the del statement to remove an element in a SPECIFIC position in a list. 
         - 3.2.1.1.1 The del statement isn't a method, it's a statement, so no dot notation.
-        - 3.2.3.1.2 The syntax is del list_ex.(<position>)
+        - 3.2.3.1.2 The syntax is del list_ex[<position>]
     - 3.2.3.2 Removing an Item Using the pop() Method
     - 3.2.3.3 Popping Items from any Position in a List
     - 3.2.3.4 Removing an Item by Value
