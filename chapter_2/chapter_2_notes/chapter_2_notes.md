@@ -39,8 +39,10 @@
       friend = "Susie"
       print(f"Hello, {friend}")
     - 2.3.2.4 F-String Syntax Print Statement With Variable and Method:
-      friend = "susie"
       print(f"Hello, {friend.title()}")
+    - 2.3.2.5 F-String Saved as a Variable:
+      message = f"This is a string with a variable: {friend}"
+      print(message)
 - *2.3.3 Adding Whitespace to Strings with Tabs or Newlines*:
     - See [e3_escape_sequences_whitespace.py](https://github.com/chloenumber1/intro-python/blob/main/chapter_2/chapter_2_examples/e3_escape_sequences_whitespace.py) for the tab and newline examples.
     - Escape sequences are denoted by a backslash, AKA the escape character, and another character (e.g. \n, \t, \", etc.). They allow you to put special characters into strings.
