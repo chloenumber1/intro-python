@@ -15,6 +15,7 @@
     - 3.1.3.2 Index -1: You can access the last item of a list using the index -1. 
 - *3.1.4 Using Individual Values From a List*:
     - 3.1.4.1 List Item Application: You can use list elements like variables. See the bicycles.py file for the corresponding example.
+
 **3.2 Changing, Adding, and Removing Elements**
 - *3.2.1 Modifying Elements in a List*:
 - See e2_motorcycles.py for example code. Methods used in this section are" .append(), .insert(), .del(), 
