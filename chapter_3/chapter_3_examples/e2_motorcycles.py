@@ -53,3 +53,16 @@ del new_motorcycles[2]
 print(f"List after removing the item at index 2: {new_motorcycles}")
 print()
 
+# 3.2.3.2.1 The pop() method's default behavior
+print("This is an example of the pop() method.")
+new_motorcycles = ["BMW", "Yamaha", "Moto Guzzi"]
+print(f"This is the contents of new_motorcycles:{new_motorcycles}")
+popped_new_motorcycles = new_motorcycles.pop()
+print(f"This is the contents of popped_new_motorcycles: {popped_new_motorcycles}")
+print(f"This is the contents of new_motorcycles: {new_motorcycles}")
+print()
+
+# 3.2.3.2.2 The pop() method with an index
+print("This is the pop() method with an index")
+first_motorcycle = new_motorcycles.pop(0)
+print(f"This first motorcycle I ever owned was a {first_motorcycle}")
