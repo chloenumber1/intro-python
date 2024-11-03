@@ -28,7 +28,7 @@
         - 3.2.2.1.2 You can also use the .append() method MULTIPLE times to populate a list.
     - 3.2.2.2 Inserting Elements Into a List: You use the .insert() method to insert an element in a SPECIFIC position in a list. The syntax is list_ex.insert(<position>,"what you want")
 - *3.2.3 Removing Elements from a List*:
-    - 3.2.3.1 Removing an Item Using the del Statement: You ise the del statement to remove an element in a SPECIFIC position in a list. 
+    - 3.2.3.1 Removing an Item Using the del Statement: You use the del statement to remove an element in a SPECIFIC position in a list. 
         - 3.2.1.1.1 The del statement isn't a method, it's a statement, so no dot notation.
         - 3.2.3.1.2 The syntax is del list_ex[<position>]
     - 3.2.3.2 Removing an Item Using the pop() Method
