@@ -70,3 +70,20 @@ print()
 print("This is the pop() method with an index")
 first_motorcycle = new_motorcycles.pop(0)
 print(f"This first motorcycle I ever owned was a {first_motorcycle}")
+print()
+
+# 3.2.3.4 Removing an item with the del() method
+
+# 3.2.3.4.1 .remove() syntax
+print("You can remove items of any type by using .remove().")
+mult_types_list = [1, "hi", 3.14, True]
+print(f"This is the contents of mult_types_list: {mult_types_list}")
+print("Now I'll remove each list element and print it as I go along.")
+mult_types_list.remove("hi")
+print(f"I removed the element \"hi\": {mult_types_list}")
+mult_types_list.remove(1)
+print(f"I removed the element 1: {mult_types_list}")
+mult_types_list.remove(True)
+print(f"I removed the element True: {mult_types_list}")
+mult_types_list.remove(3.14)
+print(f"I removed the element 3.14: {mult_types_list}")
