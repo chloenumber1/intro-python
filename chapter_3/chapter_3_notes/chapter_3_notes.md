@@ -18,7 +18,7 @@
 
 **3.2 Changing, Adding, and Removing Elements**
 - *3.2.1 Modifying Elements in a List*:
-- See e2_motorcycles.py for example code. Methods used in this section are" .append(), .insert(), .del(), 
+- See e2_motorcycles.py for example code. Methods used in this section are: .append(), .insert(), del (statement, not method), .pop(), .remove
     - 3.2.1.1 Changing an Element in a List: You can change an element in a similar way that you access it. 
         3.1.1.1 Step 1: Know what position of the list you want to change.
         3.1.1.2 Step 2: Reassign the element at that position in the list (ex. list_ex[0] = 5)
@@ -31,12 +31,17 @@
     - 3.2.3.1 Removing an Item Using the del Statement: You use the del statement to remove an element in a SPECIFIC position in a list. 
         - 3.2.1.1.1 The del statement isn't a method, it's a statement, so no dot notation.
         - 3.2.3.1.2 The syntax is del list_ex[<position>]
-    - 3.2.3.2 Removing an Item Using the pop() Method: the pop() method removes and returns either the last item in a list (default) or you can use it with an index to pop any element in the list.
+    - 3.2.3.2 Removing an Item Using the pop() Method: the pop() method removes and returns the last item in a list by default.
         - 3.2.3.2.1 pop() method syntax: list_ex.pop(). 
-        - 3.2.3.2.2 You can uSee e2_motorcycles.py for an example of the default pop() method 
-        - See e2_motorcycles.py to see how pop() can be used with an index to pop any element in a list.
-    - 3.2.3.3 Popping Items from any Position in a List
-    - 3.2.3.4 Removing an Item by Value
+        - 3.2.3.2.2 See e2_motorcycles.py for an example of the default pop() method 
+        - 3.2.3.2.3 Important note: whenever you use the pop() method, remember that the element you pop gets removed from the list.
+    - 3.2.3.3 Popping Items from any Position in a List: the pop() method can be used with an index so you can pop any item in the list.
+        - 3.2.3.3.1 See e2_motorcycles.py for an example of the pop() method with an index.
+    - 3.2.3.4 Removing an Item by Value: This section introduces the remove() method.
+        - 3.2.3.4.1: The syntax for the remove() method is list_ex.remove(<value>)
+        - 3.2.3.4.2: The remove() method is used when you need to remove an element of the list, but you do not know its index.
+        - 3.2.3.4.3: The remove() method accepts a parameter of any type as long as it matches an element in the list. 
+        - 3.2.3.4.4: The remove() method only removes the first instance of the specified value. If you want to remove duplicates, then you'll have to use a loop.
 - *3.2.4 Organizing a List:*
 - *3.2.5 Modifying Elements in a List*:
 **3.3 Avoiding Index Errors When Working with Lists**
