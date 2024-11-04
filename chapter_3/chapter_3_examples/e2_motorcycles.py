@@ -74,7 +74,7 @@ print()
 
 # 3.2.3.4 Removing an item with the del() method
 
-# 3.2.3.4.1 .remove() syntax
+# 3.2.3.4 .remove() with the actual element and with a variable.
 print("You can remove items of any type by using .remove().")
 mult_types_list = [1, "hi", 3.14, True]
 print(f"This is the contents of mult_types_list: {mult_types_list}")
@@ -87,3 +87,13 @@ mult_types_list.remove(True)
 print(f"I removed the element True: {mult_types_list}")
 mult_types_list.remove(3.14)
 print(f"I removed the element 3.14: {mult_types_list}")
+print()
+
+# Using a variable with .remove()
+print("Now, I'll use a variable to do the same thing")
+print("I stored 3.14 as a variable named pi, then removed pi from the list.")
+mult_types_list = [1, "hi", 3.14, True]
+print(f"This is the initial list with its values: {mult_types_list}")
+pi = 3.14
+mult_types_list.remove(pi)
+print(f"This is the list now that I removed pi: {mult_types_list}")
