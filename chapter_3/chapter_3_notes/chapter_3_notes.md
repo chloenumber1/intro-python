@@ -43,9 +43,11 @@
         - 3.2.3.4.3: The remove() method accepts a parameter of any type as long as it matches an element in the list. 
         - 3.2.3.4.4: The remove() method only removes the first instance of the specified value. If you want to remove duplicates, then you'll have to use a loop.
 **3.3 Organizing a List:**
+- See e3_cars.py for example code. Methods used in this section are sort(), sort(reverse=true), sorted(), 
 - *3.3.1 Sorting a List Permanently with the sort() Method*:
-    - 3.3.1.1 The sort() method sorts a list by degault, in ascending order.
-    - 3.3.1.2 You can call the sort() method with no parameters like so: list.sort().
+    - 3.3.1.1 The sort() method sorts a list by default, in ascending order.
+    - 3.3.1.2 You can call the sort() method with no parameters.
+        - 3.3.1.2.1 Example syntax: list.sort(). It'll do the default behavior mentioned above. 
     - 3.3.1.3 If you want the item in reversed (or descending order), pass the parameter reverse=true to the sort method like so: list.sort(reverse=true)
 - *3.3.2 Sorting a List Temporarily with the sorted() Function*:
 - *3.2.3 Printing a List in Reverse Order*:
