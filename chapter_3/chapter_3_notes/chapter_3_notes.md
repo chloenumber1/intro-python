@@ -42,6 +42,7 @@
         - 3.2.3.4.2: The remove() method is used when you need to remove an element of the list, but you do not know its index.
         - 3.2.3.4.3: The remove() method accepts a parameter of any type as long as it matches an element in the list. 
         - 3.2.3.4.4: The remove() method only removes the first instance of the specified value. If you want to remove duplicates, then you'll have to use a loop.
+
 **3.3 Organizing a List:**
 - See e3_cars.py for example code. Methods used in this section are sort(), sort(reverse=True), sorted(), 
 - *3.3.1 Sorting a List Permanently with the sort() Method*:
