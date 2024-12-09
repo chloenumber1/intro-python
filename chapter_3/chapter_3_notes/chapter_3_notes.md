@@ -44,6 +44,9 @@
         - 3.2.3.4.4: The remove() method only removes the first instance of the specified value. If you want to remove duplicates, then you'll have to use a loop.
 **3.3 Organizing a List:**
 - *3.3.1 Sorting a List Permanently with the sort() Method*:
+    - 3.3.1.1 The sort() method sorts a list by degault, in ascending order.
+    - 3.3.1.2 You can call the sort() method with no parameters like so: list.sort().
+    - 3.3.1.3 If you want the item in reversed (or descending order), pass the parameter reverse=true to the sort method like so: list.sort(reverse=true)
 - *3.3.2 Sorting a List Temporarily with the sorted() Function*:
 - *3.2.3 Printing a List in Reverse Order*:
 - *3.2.4 Finding the Length of a List*:
