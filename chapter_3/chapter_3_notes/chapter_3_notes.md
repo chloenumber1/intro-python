@@ -57,5 +57,6 @@
     - 3.3.2.2 sorted() isn't a method, it's a function. So you don't use dot notation since it's not a part of the object itself. i.e. sorted(cars), not cars.sorted()
     - 3.3.2.3 When you're using the sorted() function, don't assign it. That defeats the purpose. If you reassign it, you change the value of the original list. What you do is print it. See the example in e3_cars.py for further clarification.
 - *3.2.3 Printing a List in Reverse Order*:
+    - 3.2.3.1 The reverse() Method reverses the order of a list. It doesn't put it in ascending or descending order. 
 - *3.2.4 Finding the Length of a List*:
 **3.4 Avoiding Index Errors When Working with Lists**
