@@ -11,3 +11,14 @@ print(cars)
 nums = [87, 2, 1, 27]
 nums.sort()
 print(nums)
+
+# 3.3.2.1
+# Output: ['toyota', 'subaru', 'bmw', 'audi']
+cars = ['bmw', 'audi', 'toyota', 'subaru']
+cars.sort(reverse=True)
+print(cars)
+
+# Output: [87, 27, 2, 1]
+nums = [87, 2, 1, 27]
+nums.sort(reverse=True)
+print(nums)
