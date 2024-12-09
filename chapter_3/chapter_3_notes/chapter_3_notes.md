@@ -43,5 +43,6 @@
         - 3.2.3.4.3: The remove() method accepts a parameter of any type as long as it matches an element in the list. 
         - 3.2.3.4.4: The remove() method only removes the first instance of the specified value. If you want to remove duplicates, then you'll have to use a loop.
 - *3.2.4 Organizing a List:*
+    - 3.2.4.1 
 - *3.2.5 Modifying Elements in a List*:
 **3.3 Avoiding Index Errors When Working with Lists**
