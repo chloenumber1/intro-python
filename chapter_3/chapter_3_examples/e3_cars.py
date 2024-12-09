@@ -37,3 +37,11 @@ cars = sorted(cars)
 print(cars)
 # Now I reassign it to its original form:
 cars = ['bmw', 'audi', 'toyota', 'subaru']
+
+# 3.2.3 The reverse() Method
+print(f"This is the original list: {cars}")
+cars.reverse()
+print(f"This is the list after the reverse() Method: {cars}")
+
+# 3.2.4 The len() Function
+print(f"This is len(cars): {len(cars)}")
