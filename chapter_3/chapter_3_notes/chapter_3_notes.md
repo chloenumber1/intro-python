@@ -54,7 +54,8 @@
         - 3.3.1.3.2 Ensure that the keyword "True" is capitalized.
 - *3.3.2 Sorting a List Temporarily with the sorted() Function*:
     - 3.3.2.1 The sorted() function maintains the original ordering of the list, it just gives a preview of what it would look like sorted.
-    - 3.3.2.2 When you're using the sorted() function, don't assign it. That defeats the purpose. If you reassign it, you change the value of the original list. What you do is print it. See the example in e3_cars.py for further clarification.
+    - 3.3.2.2 sorted() isn't a method, it's a function. So you don't use dot notation since it's not a part of the object itself. i.e. sorted(cars), not cars.sorted()
+    - 3.3.2.3 When you're using the sorted() function, don't assign it. That defeats the purpose. If you reassign it, you change the value of the original list. What you do is print it. See the example in e3_cars.py for further clarification.
 - *3.2.3 Printing a List in Reverse Order*:
 - *3.2.4 Finding the Length of a List*:
 **3.4 Avoiding Index Errors When Working with Lists**
