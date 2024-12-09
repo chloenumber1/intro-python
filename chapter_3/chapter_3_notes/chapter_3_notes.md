@@ -45,6 +45,6 @@
 **3.3 Organizing a List:**
 - *3.3.1 Sorting a List Permanently with the sort() Method*:
 - *3.3.2 Sorting a List Temporarily with the sorted() Function*:
-- *3.2.4.3 Printing a List in Reverse Order*:
-- *3.2.4.4 Finding the Length of a List*:
+- *3.2.3 Printing a List in Reverse Order*:
+- *3.2.4 Finding the Length of a List*:
 **3.4 Avoiding Index Errors When Working with Lists**
