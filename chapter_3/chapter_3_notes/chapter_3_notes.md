@@ -62,6 +62,7 @@
 - *3.2.4 Finding the Length of a List*:
     - 3.2.4.1 The len() Function is what you use to find the number of items in a list. 
     - 3.2.4.2 Remember that it's a function, not a method. Syntax will be len(listname)
+
 **3.4 Avoiding Index Errors When Working with Lists**
 - 3.4.1 Knowing your list length is generally good. Be aware of its changing size. 
 - 3.4.2 Remember that the -1 index ALWAYS corresponds with the last item.
