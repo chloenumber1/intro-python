@@ -6,7 +6,7 @@
     - 4.1.1.2 Explaining the for loop syntax by breaking it into components:
         - 4.1.1.2.1 Start with an example
         for variable in sequence:
-            <code block that will be executed>
+            &lt;code block that will be executed&gt;
         - 4.1.1.2.2 Keyword for: The keyword "for" initiates the for loop
         - 4.1.1.2.3 variable: "variable" is a placeholder that represents the current item in the sequence during each iteration.
             - 4.1.1.2.3.1 More on "variable": It's called a placeholder variable because it doesn't have a fixed value throughout the loop. Its value changes with each iteration. So, the variable "variable" is essentially a container that's filled with a new item from the list in each pass of the loop.
