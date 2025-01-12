@@ -5,10 +5,8 @@
     - 4.1.1.1 The for loop: a for loop is the first control structure being introduced. The purpose of a for loop is to iterate over an iteratable object (in this case a list, but more generally a sequence). The primary objective of a for loop is to automate repetitive tasks (such as accessing elements in a list, printing statements repeatedly, etc.).
     - 4.1.1.2 Explaining the for loop syntax by breaking it into components:
         - 4.1.1.2.1 Start with an example
-        
         for variable in sequence:
-        
-            &lt;code block that will be executed&gt;
+            (code block that will be executed)
         - 4.1.1.2.2 Keyword for: The keyword "for" initiates the for loop
         - 4.1.1.2.3 variable: "variable" is a placeholder that represents the current item in the sequence during each iteration.
             - 4.1.1.2.3.1 More on "variable": It's called a placeholder variable because it doesn't have a fixed value throughout the loop. Its value changes with each iteration. So, the variable "variable" is essentially a container that's filled with a new item from the list in each pass of the loop.
