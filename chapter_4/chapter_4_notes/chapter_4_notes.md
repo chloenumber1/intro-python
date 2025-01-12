@@ -21,6 +21,9 @@
     - 4.1.2.1 A for loop with a formatted String: In the example file there is an example of a for loop with a formatted string in its body. 
     - 4.1.2.2 A for loop with two formatted Strings: In the example file there is an example of a for loop with two formatted strings in its body. 
 - *4.1.3 Doing Something After a for Loop*:
+    - Indentation is critical with for loops, since it specifies what is in and out of the loop. If you want to do something after a for loop finishes executing, then you must ensure that the statement is outside of the loop (and you do this with proper indentation).
+    - See [e1_magicians.py](https://github.com/chloenumber1/intro-python/blob/main/chapter_4/chapter_4_examples/e1_magicians.py) for examples.
+    - 4.1.3.1 Working outside of the loop: In the example file, there is an example where a statement is printed outside of the loop to illustrate that only statements inside of the loop body are repeated. 
 
 **4.2 Avoiding Indentation Errors**
 
