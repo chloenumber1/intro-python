@@ -6,7 +6,7 @@
     - 4.1.1.2 Explaining the for loop syntax by breaking it into components:
         - 4.1.1.2.1 Start with an example\
         for variable in sequence:\
-            (code block that will be executed)\
+            (code block that will be executed)
         - 4.1.1.2.2 Keyword for: The keyword "for" initiates the for loop
         - 4.1.1.2.3 variable: "variable" is a placeholder that represents the current item in the sequence during each iteration.
             - 4.1.1.2.3.1 More on "variable": It's called a placeholder variable because it doesn't have a fixed value throughout the loop. Its value changes with each iteration. So, the variable "variable" is essentially a container that's filled with a new item from the list in each pass of the loop.
@@ -15,6 +15,7 @@
         - 4.1.1.2.6 colon (:): The colon marks the end of the for statement
         - 4.1.1.2.7 code block to be executed: The code block indented under the for statement will be executed for each item in the sequence.
 - *4.1.2 Doing More Work Within a for Loop*:
+    - 4.1.2.1 
 - *4.1.3 Doing Something After a for Loop*:
 
 **4.2 Avoiding Indentation Errors**
