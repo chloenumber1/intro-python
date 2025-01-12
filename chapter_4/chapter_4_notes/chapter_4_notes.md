@@ -4,6 +4,7 @@
 - *4.1.1 A Closer Look at Looping*:
     - 4.1.1.1 The for loop: a for loop is the first control structure being introduced. The purpose of a for loop is to iterate over an iteratable object (in this case a list, but more generally a sequence). The primary objective of a for loop is to automate repetitive tasks (such as accessing elements in a list, printing statements repeatedly, etc.).
     - 4.1.1.2 Explaining the for loop syntax by breaking it into components:
+        - The first example for the for loop shows its syntax. It can be found in [e1_magicians.py](https://github.com/chloenumber1/intro-python/blob/main/chapter_4/chapter_4_examples/e1_magicians.py)
         - 4.1.1.2.1 Start with an example\
         for variable in sequence:\
             (code block that will be executed)
