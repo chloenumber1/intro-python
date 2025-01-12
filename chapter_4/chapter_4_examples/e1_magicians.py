@@ -9,3 +9,10 @@ for magician in magicians:
 magicians2 = ['alice', 'david', 'carolina'] 
 for magician in magicians2: 
     print(f"{magician.title()}, that was a great trick!") 
+
+# 4.1.2.2 
+# Two formatted strings with a for loop
+magicians3 = ['alice', 'david', 'carolina'] 
+for magician in magicians3:
+    print(f"{magician.title()}, that was a great trick!") 
+    print(f"I can't wait to see your next trick, {magician.title()}.\n")
