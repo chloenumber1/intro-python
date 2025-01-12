@@ -8,7 +8,12 @@
         for variable in sequence:
             # code block that will be executed
         - 4.1.1.2.2 Keyword for: The keyword "for" initiates the for loop
-        - 4.1.1.2.3 variable: "variable" 
+        - 4.1.1.2.3 variable: "variable" is a placeholder that represents the current item in the sequence during each iteration.
+            - 4.1.1.2.3.1 More on "variable": It's called a placeholder variable because it doesn't have a fixed value throughout the loop. Its value changes with each iteration. So, the variable "variable" is essentially a container that's filled with a new item from the list in each pass of the loop.
+        - 4.1.1.2.4 Keyword in: The keyword in is used to specify that the variable will iterate over the given sequence.
+        - 4.1.1.2.5 sequence: "sequence" is what's being iterated over and it can be any iteratable object. 
+        - 4.1.1.2.6 colon (:): The colon marks the end of the for statement
+        - 4.1.1.2.7 code block to be executed: The code block indented under the for statement will be executed for each item in the sequence.
 - *4.1.2 Doing More Work Within a for Loop*:
 - *4.1.3 Doing Something After a for Loop*:
 
