@@ -16,7 +16,10 @@
         - 4.1.1.2.6 colon (:): The colon marks the end of the for statement
         - 4.1.1.2.7 code block to be executed: The code block indented under the for statement will be executed for each item in the sequence.
 - *4.1.2 Doing More Work Within a for Loop*:
-    - 4.1.2.1 
+    - This subchapter emphasizes that you can write multiple lines in the body of the for loop in order to do a variety of operations on the sequence.
+    - See [e1_magicians.py](https://github.com/chloenumber1/intro-python/blob/main/chapter_4/chapter_4_examples/e1_magicians.py) for examples.
+    - 4.1.2.1 A for loop with a formatted String: In the example file there is an example of a for loop with a formatted string in its body. 
+    - 4.1.2.2 A for loop with two formatted Strings: In the example file there is an example of a for loop with two formatted strings in its body. 
 - *4.1.3 Doing Something After a for Loop*:
 
 **4.2 Avoiding Indentation Errors**
