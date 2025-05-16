@@ -67,8 +67,8 @@ print("----------\n")
 # message. Print your message.
 
 print("2-6 Famous Quote Question")
-name2_5 = "Chloe's Mom"
-message = f"{name2_5} once said,\n\t\"Stop\tbeing\tDUMB!!!!\"\n...And to that she said \"no\""
+name2_6 = "Chloe's Mom"
+message = f"{name2_6} once said,\n\t\"Stop\tbeing\tDUMB!!!!\"\n...And to that she said \"no\""
 print(message)
 print("----------\n")
 
@@ -81,3 +81,23 @@ print("----------\n")
 
 print("2-7 Stripping Names Question:\n")
 print("----------\n")
+
+# 2-8. Number Eight: Write addition, subtraction, multiplication, and 
+# division operations that each result in the number 8. Be sure to 
+# enclose your operations in print() calls to see the results. You 
+# should create four lines that look like this: print(5+3)
+# Your output should simply be four lines with the number 8 appearing
+# once on each line.
+
+print("2-8 Number Eight Question:\n")
+print("----------\n")
+
+# 2-9. Favorite Number: Use a variable to represent your favorite number. 
+# Then, using that variable, create a message that reveals your favorite 
+# number. Print that message.
+
+print("2-9 Favorite Number Question:\n")
+print("----------\n")
+
+# 2-10 was about adding comments, which are throughout the file.
+
