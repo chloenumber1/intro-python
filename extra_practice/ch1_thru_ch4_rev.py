@@ -58,7 +58,7 @@ print(f"{name2_5} once said,")
 print("\t\"Stop")
 print("\tbeing")
 print("\tDUMB!!!!\"")
-print("...And to that she said \"no\"")
+print("...And to that I said \"no\"")
 print("----------\n")
 
 # 2-6. Famous Quote 2: Repeat Exercise 2-5, but this time, represent the 
@@ -66,9 +66,9 @@ print("----------\n")
 # Then compose your  message and represent it with a new variable called 
 # message. Print your message.
 
-print("2-6 Famous Quote Question")
+print("2-6 Famous Quote Question:\n")
 name2_6 = "Chloe's Mom"
-message = f"{name2_6} once said,\n\t\"Stop\tbeing\tDUMB!!!!\"\n...And to that she said \"no\""
+message = f"{name2_6} once said,\n\t\"Stop\tbeing\tDUMB!!!!\"\n...And to that I said \"no\""
 print(message)
 print("----------\n")
 
@@ -80,6 +80,15 @@ print("----------\n")
 # rstrip(), and strip()
 
 print("2-7 Stripping Names Question:\n")
+name2_7 = "\t\n\tChloe\n\t\n"
+print("Original name:")
+print(name2_7)
+print("Name with lstrip():")
+print(name2_7.lstrip())
+print("Name with rstrip():")
+print(name2_7.rstrip())
+print("Name with strip():")
+print(name2_7.strip())
 print("----------\n")
 
 # 2-8. Number Eight: Write addition, subtraction, multiplication, and 
@@ -90,6 +99,10 @@ print("----------\n")
 # once on each line.
 
 print("2-8 Number Eight Question:\n")
+print(4+4)
+print(12-4)
+print(2*4)
+print(16/2)
 print("----------\n")
 
 # 2-9. Favorite Number: Use a variable to represent your favorite number. 
@@ -97,7 +110,8 @@ print("----------\n")
 # number. Print that message.
 
 print("2-9 Favorite Number Question:\n")
+fav_num = 28.0
+print(f"This is my favorite number: {fav_num}")
 print("----------\n")
 
 # 2-10 was about adding comments, which are throughout the file.
-
