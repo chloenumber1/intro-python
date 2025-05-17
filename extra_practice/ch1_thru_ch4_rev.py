@@ -167,6 +167,12 @@ print("----------\n")
 # message to each person, inviting them to dinner.
 
 print("3-4 Guest List Question:\n")
+guest_list3_4 = ["guest1", "guest2", "guest3", "guest4", "guest5"]
+print(f"Hello, {guest_list3_4[0].title()}, I'd like to invite you to my dinner party.")
+print(f"Hello, {guest_list3_4[1].title()}, I'd like to invite you to my dinner party.")
+print(f"Hello, {guest_list3_4[2].title()}, I'd like to invite you to my dinner party.")
+print(f"Hello, {guest_list3_4[3].title()}, I'd like to invite you to my dinner party.")
+print(f"Hello, {guest_list3_4[4].title()}, I'd like to invite you to my dinner party.")
 print("----------\n")
 
 # 3-5. Changing Guest List: You just heard that one of your guests can’t 
@@ -180,12 +186,28 @@ print("----------\n")
 # who is still in your list.
 
 print("3-5.1 Changing Guest List Question:\n")
+print(f"Hello, {guest_list3_4[0].title()}, I'd like to invite you to my dinner party.")
+print(f"Hello, {guest_list3_4[1].title()}, I'd like to invite you to my dinner party.")
+print(f"Hello, {guest_list3_4[2].title()}, I'd like to invite you to my dinner party.")
+print(f"Hello, {guest_list3_4[3].title()}, I'd like to invite you to my dinner party.")
+print(f"Hello, {guest_list3_4[4].title()}, I'd like to invite you to my dinner party.")
+print(f"Unfortunately, {guest_list3_4[1]}, will be unable to attend.")
 print("----------\n")
 
 print("3-5.2 Changing Guest List Question:\n")
+print(f"In place of {guest_list3_4[1]}, guest2rep will attend.")
+# Slice creates a new copy of the original list
+guest_list3_5 = guest_list3_4[:]
+guest_list3_5[1] = "guest2rep"
+print(guest_list3_5)
 print("----------\n")
 
 print("3-5.3 Names Changing Guest Question:\n")
+print(f"Hello, {guest_list3_5[0].title()}, I'd like to invite you to my dinner party.")
+print(f"Hello, {guest_list3_5[1].title()}, I'd like to thanks for taking the open spot.")
+print(f"Hello, {guest_list3_5[2].title()}, I'd like to invite you to my dinner party.")
+print(f"Hello, {guest_list3_5[3].title()}, I'd like to invite you to my dinner party.")
+print(f"Hello, {guest_list3_5[4].title()}, I'd like to invite you to my dinner party.")
 print("----------\n")
 
 # 3-6. More Guests: You just found a bigger dinner table, so now more 
@@ -199,18 +221,39 @@ print("----------\n")
 # 3-6.5 Print a new set of invitation messages, one for each person in your list.
 
 print("3-6.1 More Guests Question:\n")
+print(f"Hello, {guest_list3_4[0].title()}, I'd like to invite you to my dinner party.")
+print(f"Hello, {guest_list3_4[1].title()}, I'd like to invite you to my dinner party.")
+print(f"Hello, {guest_list3_4[2].title()}, I'd like to invite you to my dinner party.")
+print(f"Hello, {guest_list3_4[3].title()}, I'd like to invite you to my dinner party.")
+print(f"Hello, {guest_list3_4[4].title()}, I'd like to invite you to my dinner party.")
+print("Hey everyone, I found a bigger table!")
+guest_list3_6 = guest_list3_4[:]
 print("----------\n")
 
 print("3-6.2 More Guests Question:\n")
+guest_list3_6.insert(0, "guest1new")
+print(guest_list3_6)
 print("----------\n")
 
 print("3-6.3 More Guests Question:\n")
+guest_list3_6.insert(2, "guest2new")
+print(guest_list3_6)
 print("----------\n")
 
 print("3-6.4 More Guests Question:\n")
+guest_list3_6.append("finalguestnew")
+print(guest_list3_6)
 print("----------\n")
 
 print("3-6.5 More Guests Question:\n")
+print(f"Hello, {guest_list3_6[0].title()}, I'd like to invite you to my dinner party.")
+print(f"Hello, {guest_list3_6[1].title()}, I'd like to invite you to my dinner party.")
+print(f"Hello, {guest_list3_6[2].title()}, I'd like to invite you to my dinner party.")
+print(f"Hello, {guest_list3_6[3].title()}, I'd like to invite you to my dinner party.")
+print(f"Hello, {guest_list3_6[4].title()}, I'd like to invite you to my dinner party.")
+print(f"Hello, {guest_list3_6[5].title()}, I'd like to invite you to my dinner party.")
+print(f"Hello, {guest_list3_6[6].title()}, I'd like to invite you to my dinner party.")
+print(f"Hello, {guest_list3_6[7].title()}, I'd like to invite you to my dinner party.")
 print("----------\n")
 
 # 3-7. Shrinking Guest List: You just found out that your new dinner table
@@ -228,6 +271,7 @@ print("----------\n")
 # of your program.
 
 print("3-7.1 Shrinking Guest List Question:\n")
+
 print("----------\n")
 
 print("3-7.2 Shrinking Guest List Question:\n")
