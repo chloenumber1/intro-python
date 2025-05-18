@@ -196,15 +196,18 @@ print("----------\n")
 
 print("3-5.2 Changing Guest List Question:\n")
 print(f"In place of {guest_list3_4[1]}, guest2rep will attend.")
-# Slice creates a new copy of the original list
-guest_list3_5 = guest_list3_4[:]
+# .copy() creates a new, separate copy of the original list.
+# You shouldn't do new_list = original_list if you want a true copy,
+# because that doesn't create a new list, it just makes both variables
+# point to the same list in memory. So when you modify one, the other changes too.
+guest_list3_5 = guest_list3_4.copy()
 guest_list3_5[1] = "guest2rep"
 print(guest_list3_5)
 print("----------\n")
 
 print("3-5.3 Names Changing Guest Question:\n")
 print(f"Hello, {guest_list3_5[0].title()}, I'd like to invite you to my dinner party.")
-print(f"Hello, {guest_list3_5[1].title()}, I'd like to thanks for taking the open spot.")
+print(f"Hello, {guest_list3_5[1].title()}, I'd like to thank you for taking the open spot.")
 print(f"Hello, {guest_list3_5[2].title()}, I'd like to invite you to my dinner party.")
 print(f"Hello, {guest_list3_5[3].title()}, I'd like to invite you to my dinner party.")
 print(f"Hello, {guest_list3_5[4].title()}, I'd like to invite you to my dinner party.")
@@ -227,7 +230,7 @@ print(f"Hello, {guest_list3_4[2].title()}, I'd like to invite you to my dinner p
 print(f"Hello, {guest_list3_4[3].title()}, I'd like to invite you to my dinner party.")
 print(f"Hello, {guest_list3_4[4].title()}, I'd like to invite you to my dinner party.")
 print("Hey everyone, I found a bigger table!")
-guest_list3_6 = guest_list3_4[:]
+guest_list3_6 = guest_list3_4.copy()
 print("----------\n")
 
 print("3-6.2 More Guests Question:\n")
