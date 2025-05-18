@@ -27,8 +27,11 @@
 
 **4.2 Avoiding Indentation Errors**
 - Indentation in Python is essential for defining the structure of code blocks, as it indicates which statements belong together, such as in functions, loops, or conditionals. This requirement makes the code more clear while also indicating the scope of variables and the flow of execution. Unlike programming languages that use braces, Python enforces consistent indentation as a syntax requirement, where improper indentation leads to errors.
+- See [e1_magicians.py](https://github.com/chloenumber1/intro-python/blob/main/chapter_4/chapter_4_examples/e1_magicians.py) for examples of the various indentation errors.
 - *4.2.1 Forgetting to Indent*:
+    - 4.2.1.1 Forgotten Indent: If you forget to indent, it'll often cause a code error.
 - *4.2.2 Forgetting to Indent Additional Lines*:
+    - 4.2.2.1 if you forget to indent additional lines, it may not generate an error message but it will cause unexpected code behavior. This is a logical error. 
 - *4.2.3 Indenting Unnecessarily*:
 - *4.2.4 Indenting Unnecessarilt After the Loop*:
 - *4.2.5 Forgetting the Colon*:
