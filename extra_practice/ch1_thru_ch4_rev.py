@@ -308,6 +308,8 @@ print("----------\n")
 # 3-8.10 Use sort() to change your list so it’s stored in reverse 
 # alphabetical order. Print the list to show that its order has changed.
 
+print("!!! The most important takeaway from this question is that functions return new lists and methods actually alter lists !!!\n")
+
 print("3-8.1 Seeing The World Question:\n")
 locations3_8 = ["Grand Canyon", "Nebraska", "Vietnam", "Mexico", "Berry Islands", "Saipan"]
 print("----------\n")
@@ -366,6 +368,10 @@ print("----------\n")
 # items and then uses each function introduced in this chapter at least once.
 
 print("3-10 Every Function Question:\n")
+animals3_10 = "Gecko", "Ferret", "Dog", "Cat"
+print(f"This is the function len:\n{len(animals3_10)}")
+print(f"This is the function sorted:\n{sorted(animals3_10)}")
+print(f"This is the function sorted with reverse=True param:\n{sorted(animals3_10, reverse=True)}")
 print("----------\n")
 
 # 3-11. Intentional Error: If you haven’t received an index error in one of your 
@@ -374,4 +380,6 @@ print("----------\n")
 # closing the program.
 
 print("3-11 Intentional Error Question:\n")
+# error_list3_11 = [1,2,3,4]
+# print(error_list3_11[25])
 print("----------\n")
