@@ -274,6 +274,7 @@ print("----------\n")
 # of your program.
 
 print("3-7.1 Shrinking Guest List Question:\n")
+guest_list3_7 = guest_list3_6.copy()
 
 print("----------\n")
 
@@ -308,33 +309,47 @@ print("----------\n")
 # alphabetical order. Print the list to show that its order has changed.
 
 print("3-8.1 Seeing The World Question:\n")
+locations3_8 = ["Grand Canyon", "Nebraska", "Vietnam", "Mexico", "Berry Islands", "Saipan"]
 print("----------\n")
 
 print("3-8.2 Seeing The World Question:\n")
+print(locations3_8)
 print("----------\n")
 
 print("3-8.3 Seeing The World Question:\n")
+print(f"This is the sorted list:\n{sorted(locations3_8)}")
 print("----------\n")
 
 print("3-8.4 Seeing The World Question:\n")
+print(f"When I print the list again, it's in its original form:\n{locations3_8}")
 print("----------\n")
 
 print("3-8.5 Seeing The World Question:\n")
+print(f"This is the sorted list:\n{sorted(locations3_8,reverse=True)}")
 print("----------\n")
 
 print("3-8.6 Seeing The World Question:\n")
+print(f"When I print the list again, it's in its original form:\n{locations3_8}")
 print("----------\n")
 
 print("3-8.7 Seeing The World Question:\n")
+locations3_8.reverse()
+print(f"When I use the .reverse() method, it changes the list:\n{locations3_8}")
 print("----------\n")
 
 print("3-8.8 Seeing The World Question:\n")
+locations3_8.reverse()
+print(f"When I use the .reverse() method again, it changes the list:\n{locations3_8}")
 print("----------\n")
 
 print("3-8.9 Seeing The World Question:\n")
+locations3_8.sort()
+print(f"When I use the .sort() method, it changes the list:\n{locations3_8}")
 print("----------\n")
 
 print("3-8.10 Seeing The World Question:\n")
+locations3_8.sort(reverse=True)
+print(f"When I use the .sort() method again, it changes the list:\n{locations3_8}")
 print("----------\n")
 
 # 3-9. Dinner Guests: Working with one of the programs from Exercises 3-4 
@@ -342,6 +357,7 @@ print("----------\n")
 # of people you are inviting to dinner.
 
 print("3-9 Dinner Guests Question:\n")
+print(f"I will be inviting {len(guest_list3_4)} people to my dinner party.")
 print("----------\n")
 
 # 3-10. Every Function: Think of something you could store in a list. For example, 
