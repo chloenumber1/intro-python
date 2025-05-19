@@ -33,7 +33,8 @@
 - *4.2.2 Forgetting to Indent Additional Lines*:
     - 4.2.2.1 Forgotten Indent of ADDITIONAL Lines: if you forget to indent additional lines, it may not generate an error message but it will cause unexpected code behavior. This is a logical error. 
 - *4.2.3 Indenting Unnecessarily*:
-- *4.2.4 Indenting Unnecessarilt After the Loop*:
+    - 4.2.3.1 Indenting Unnecessarily: when you add an indent where it doesn't need to be, you'll typically generate an error. 
+- *4.2.4 Indenting Unnecessarily After the Loop*:
 - *4.2.5 Forgetting the Colon*:
 
 **4.3 Making Numerical Lists**
