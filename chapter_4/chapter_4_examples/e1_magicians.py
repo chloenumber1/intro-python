@@ -1,17 +1,20 @@
 # 4.1.1.2 
 # Introducing the for loop syntax
+print("4.1.1.2 Introducing for loop syntax")
 magicians = ['alice', 'david', 'carolina'] 
 for magician in magicians: 
     print(magician)
 
 # 4.1.2.1
 # Formatted string with for loop
+print("\n4.1.2.1 Formatted string with a for loop")
 magicians2 = ['alice', 'david', 'carolina'] 
 for magician in magicians2: 
     print(f"{magician.title()}, that was a great trick!") 
 
 # 4.1.2.2 
 # Two formatted strings with a for loop
+("\n4.1.2.2 Two formatted strings in a for loop")
 magicians3 = ['alice', 'david', 'carolina'] 
 for magician in magicians3:
     print(f"{magician.title()}, that was a great trick!") 
@@ -19,6 +22,7 @@ for magician in magicians3:
 
 # 4.1.3.1
 # Doing something outside of a loop
+print("\n4.1.3.1 Doing something outside of a loop")
 magicians = ['alice', 'david', 'carolina'] 
 for magician in magicians: 
  print(f"{magician.title()}, that was a great trick!")
@@ -29,7 +33,7 @@ print("Thank you, everyone. That was a great magic show!")
 # 4.2.1.1
 # Forgetting to indent
 
-print("4.2.1.1 This code generates an error because the for loop body isn't indented.")
+print("\n4.2.1.1 This code generates an error because the for loop body isn't indented.")
 # magicians = ['alice', 'david', 'carolina'] 
 # for magician in magicians: 
 # print(magician)
@@ -37,7 +41,7 @@ print("4.2.1.1 This code generates an error because the for loop body isn't inde
 # 4.2.2.1
 # Forgetting to indent ADDITIONAL lines
 
-print("4.2.2.1 This code produces unexpected output because one of the print statements in the loop body isn't indented.")
+print("\n4.2.2.1 This code produces unexpected output because one of the print statements in the loop body isn't indented.")
 magicians = ['alice', 'david', 'carolina']
 for magician in magicians:
     print(f"{magician.title()}, that was a great trick!")
