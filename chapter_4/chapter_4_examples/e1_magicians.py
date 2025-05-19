@@ -25,3 +25,29 @@ for magician in magicians:
  print(f"I can't wait to see your next trick, {magician.title()}.\n")
  
 print("Thank you, everyone. That was a great magic show!")
+
+# 4.2.1.1
+# Forgetting to indent
+
+print("4.2.1.1 This code generates an error because the for loop body isn't indented.")
+# magicians = ['alice', 'david', 'carolina'] 
+# for magician in magicians: 
+# print(magician)
+
+# 4.2.2.1
+# Forgetting to indent ADDITIONAL lines
+
+print("4.2.2.1 This code produces unexpected output because one of the print statements in the loop body isn't indented.")
+magicians = ['alice', 'david', 'carolina']
+for magician in magicians:
+    print(f"{magician.title()}, that was a great trick!")
+print(f"I can't wait to see your next trick, {magician.title()}.\n")
+
+# 4.2.3.1
+# Indenting unnecessarily
+
+# 4.2.4.1
+# Indenting unnecessarily AFTER the loop
+
+# 4.2.5.1
+# Forgetting the colon
