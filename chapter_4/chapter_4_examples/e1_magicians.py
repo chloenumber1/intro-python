@@ -50,8 +50,23 @@ print(f"I can't wait to see your next trick, {magician.title()}.\n")
 # 4.2.3.1
 # Indenting unnecessarily
 
+print("\n4.2.3.1 Indenting unnecessarily will generate an error")
+# message = "Hello Python world!"
+#    print(message)
+
 # 4.2.4.1
 # Indenting unnecessarily AFTER the loop
 
+print("\n4.2.4.1 Indenting unnecessarily AFTER the loop will cause the indented line to be included in the loop")
+magicians = ['alice', 'david', 'carolina'] 
+for magician in magicians: 
+    print(f"{magician.title()}, that was a great trick!")
+    print(f"I can't wait to see your next trick, {magician.title()}.\n") 
+    print("Thank you everyone, that was a great magic show!")
+
 # 4.2.5.1
 # Forgetting the colon
+print("4.2.5.1 Forgetting the colon will cause a syntax error")
+# magicians = ['alice', 'david', 'carolina'] 
+# for magician in magicians
+#     print(magician)

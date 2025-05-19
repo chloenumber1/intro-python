@@ -35,8 +35,10 @@
 - *4.2.3 Indenting Unnecessarily*:
     - 4.2.3.1 Indenting Unnecessarily: when you add an indent where it doesn't need to be, you'll typically generate an error. 
 - *4.2.4 Indenting Unnecessarily After the Loop*:
+    - 4.2.4.1 Indenting Unnecessarily After the Loop: When you indent unnecessarily after the loop, that indent will make it so that the statement is also executed in the loop body.
 - *4.2.5 Forgetting the Colon*:
-
+    - 4.2.5.1 Forgetting the Colon: The colon indicates the beginning of the loop body. If you forget it, that's a syntax error.
+    
 **4.3 Making Numerical Lists**
 
 **4.4 Working with Part of a List**
