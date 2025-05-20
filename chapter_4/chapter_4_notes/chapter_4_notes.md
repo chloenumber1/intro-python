@@ -41,6 +41,8 @@
     
 **4.3 Making Numerical Lists**
 
+4.3.1 Using the range() function
+
 **4.4 Working with Part of a List**
 
 **4.5 Tuples**
