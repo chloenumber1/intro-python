@@ -40,8 +40,10 @@
     - 4.2.5.1 Forgetting the Colon: The colon indicates the beginning of the loop body. If you forget it, that's a syntax error.
     
 **4.3 Making Numerical Lists**
-
-4.3.1 Using the range() function
+- *4.3.1 Using the range() function*:
+- *4.3.2 Using range() to make a List of Numbers*:
+- *4.3.3 Simple Statistics with a List of Numbers*:
+- *4.3.4 List Comprehensions*:
 
 **4.4 Working with Part of a List**
 
